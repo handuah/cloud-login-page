@@ -1,0 +1,39 @@
+body{
+    margin-left: 0;
+    padding-left: 0;
+   overflow: hidden;
+   background: grey;   
+}
+
+/* #cloud-form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+} */
+
+#cloud{
+    background:  url(../img/cloud1.jpg) no-repeat;
+    padding-top: 100%;
+    margin-left: 12%;
+    margin-top: 4%;
+}
+
+form{
+    margin-top: -93%;
+    margin-left: -5%;
+    padding: 0 30%;
+}
+
+label{
+    font-size: 1.2em;
+}
+
+input{
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.24);
+}
+
+.btn-primary{
+    border-radius: 0px;
+    box-shadow: 10px 5px 30px rgba(0, 0, 0, 0.24);
+}
